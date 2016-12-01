@@ -1,0 +1,9 @@
+STATUS EQU P3.2
+
+DataCapture:
+		
+		JNZ STATUS, $
+		SETB P3.3
+		MOV R2,P1
+		CLR P3.3
+		RET

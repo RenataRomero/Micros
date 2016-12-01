@@ -1,0 +1,5 @@
+Slave:
+
+CalibrationSlave:
+	ACALL PrepareBauds
+	
